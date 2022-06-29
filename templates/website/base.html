@@ -82,6 +82,9 @@
                             <li><a href="" class="nav-link">Solution</a></li>
                             <li><a href="{% url 'about_us' %}" class="nav-link">About Us</a></li>
                             <li><a href="{% url 'contact_us' %}" class="nav-link">Contact Us</a></li>
+                            {% if user.is_authenticated %}
+                                <li><a href="{% url 'accounts:signin' %}" class="btn btn-warning">Check Meeting</a></li>
+                            {% endif %}
                         </ul>
                     </div>
 
