@@ -25,6 +25,7 @@ SECRET_KEY = 'django-insecure-uf+hlfvez5)ofxgk^l$fz@y03vv4h60a^atqrzqqsr-6%%9wg_
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
+# ALLOWED_HOSTS = ['elabels.ca', 'www.elabels.ca']
 ALLOWED_HOSTS = []
 
 
